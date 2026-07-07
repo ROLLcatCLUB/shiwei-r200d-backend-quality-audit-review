@@ -1,0 +1,669 @@
+{
+  "stage": "1013R_R200A_ART_LESSON_DESIGN_KERNEL_PREVIEW",
+  "status": "PASS",
+  "checks": {
+    "html_has_r200a_metadata": true,
+    "html_shows_pedagogy_and_standard_status": true,
+    "qinglv_kernel_ready_with_curriculum_candidate_refs": true,
+    "ocean_kernel_ready_with_curriculum_candidate_refs": true,
+    "material_art_kernel_classified_correctly": true,
+    "shoe_observation_not_misclassified_as_color_gradation": true,
+    "cross_topic_guard_passed_for_all_smokes": true,
+    "cross_topic_guard_blocks_visible_old_topic_terms": true,
+    "shoe_observation_objectives_and_keypoints_focus_specific": true,
+    "shoe_observation_microsteps_have_focus_specific_display_fields": true,
+    "basis_deduped_and_gap_demoted": true,
+    "student_analysis_has_profile_layers": true,
+    "official_standard_not_faked": true,
+    "remaining_standard_fields_visible": true,
+    "episode_and_micro_methods_mapped": true,
+    "template_and_sections_embed_kernel": true,
+    "episodes_and_microsteps_embed_kernel_basis": true,
+    "provider_packet_preview_only": true,
+    "runtime_progress_mentions_kernel": true,
+    "record_includes_kernel_status": true,
+    "preview_only": true
+  },
+  "qinglv": {
+    "kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "lesson_focus": {
+      "focus_id": "ink_or_traditional_color_exploration",
+      "description": "传统色彩或水墨材料的层次试探与文化感受",
+      "learning_domain": "造型表现 / 文化理解",
+      "matched_keywords": [
+        "墨"
+      ]
+    },
+    "cross_topic_guard": {
+      "guard_id": "r200a_cross_topic_visible_text_guard",
+      "focus_id": "ink_or_traditional_color_exploration",
+      "forbidden_terms": [
+        "足下生辉",
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "海洋生物",
+        "废旧材料"
+      ],
+      "hit_count": 0,
+      "hits": [],
+      "passed": true,
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    "chain_checks": {
+      "curriculum_control_layer_present": true,
+      "official_standard_gap_visible": true,
+      "pedagogy_moves_present": true,
+      "episodes_mapped_to_pedagogy": true,
+      "microsteps_mapped_to_pedagogy": true,
+      "derivation_spine_preserved": true,
+      "no_official_standard_claim_without_ref": true
+    },
+    "curriculum_interpretation_status": "candidate_interpretation_pending_teacher_review",
+    "official_curriculum_claim_created": false,
+    "real_curriculum_standard_full_text_parsed": false,
+    "missing_required_fields": [
+      "academic_quality_or_performance_evidence",
+      "grade_band"
+    ],
+    "basis_body": [
+      "本课定位为“第三单元：青绿中国色”中的《青绿色阶练习》。",
+      "本课的学习重心，是让学生从青绿山水图像进入，感受传统色彩、矿物材料和画面层次，再用短任务表达观察发现。",
+      "课标候选依据提示：七、课程实施 > 教学建议：(一)教学建议 艺术教学要以立德树人为根本任务，以核心素养为导向。教师要 深入理解艺术课程的性质；七、课程实施 > 评价建议：(二)评价建议 评价是检验、提升教学质量的重要方式和手段。要充分发挥评价 的诊断、激励和改善功能；七、课程实施 > 课程资源开发与利用：(四)课程资源开发与利用 艺术课程资源是艺术课程内容的重要来源和艺术活动的重要载 体，也是艺术课。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+    ],
+    "basis_source_gap_notes": [
+      "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "已降级为定位来源提示：本课依据上传原稿定位为年级待确认《青绿色阶练习》，所属单元为“第三单元：青绿中国色”。",
+      "已降级为旧理解链重复提示：本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。"
+    ],
+    "student_analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生可能已经观察过颜色深浅、冷暖或相近色变化；本课要把直观感受推进到色阶、浓淡或渐变控制。",
+      "本课难点在于学生能否从青绿山水中看见色彩层次、材料质感和画面空间，而不是只把作品理解成绿色山水图。",
+      "材料与表现基础上，学生能观察颜色和画面大关系，但对石青、石绿、墨色浓淡和层次叠加的控制需要短示范与试探。",
+      "真实学情缺口：本班学生的传统山水图像经验、颜料使用经验和对青绿材料的感受基础，上传原文未充分提供，需教师确认。",
+      "结合课标候选方向看，学情分析应确认学生已有观察、材料尝试、作品表达和交流证据基础。"
+    ],
+    "objectives_body": [
+      "学生能观察青绿山水图像，说出色彩层次、山石空间或材料质感中的2-3个发现。",
+      "学生能通过短任务尝试石青、石绿或墨色浓淡的层次变化，形成一处可见的材料试探证据。",
+      "学生能在交流中说明自己的青绿观察依据，并用作品或学习单记录一处调整想法。",
+      "课标候选约束下，目标应同时包含观察/感受、方法尝试、作品表达和证据交流。"
+    ],
+    "keypoints_body": [
+      "重点：引导学生观察青绿山水的色彩层次、材料质感和画面空间关系。",
+      "难点：帮助学生把传统图像感受转化为可操作的材料试探和语言表达，避免只停留在颜色好看。",
+      "课标候选约束下，重难点应落到学生能看见、能操作、能说明的课堂证据。"
+    ],
+    "basis_student_profile_refined": true,
+    "episode_count": 7,
+    "micro_step_count": 10,
+    "micro_step_display_text": "课堂导入\n\n学生任务：回顾上节课青绿初印象学习单，说出1个感受；可观察证据：能说出2-3个与青绿相关的词汇\n上节课的青绿初印象学习单\n\n能说出2-3个与青绿相关的词汇\n认识材料\n\n学生任务：观察材料，说出1个发现（颜色/质地/气味）；可观察证据：能用1个词描述至少2种材料的视觉或触觉感受\n墨汁、石青、石绿颜料杯，毛笔，清水，备用湿布\n\n能用1个词描述至少2种材料的视觉或触觉感受\n探索浓淡墨\n\n学生任务：尝试在清水里加墨，调节浓淡，画出三条不同浓度的墨线；可观察证据：能调出并清晰区分浓墨/淡墨两种以上色调\n学习单，毛笔，墨汁，清水\n\n能调出并清晰区分浓墨/淡墨两种以上色调\n教师示范\n\n学生任务：观察教师示范，记住调色步骤；可观察证据：理解加水量决定色调深浅的规律\n墨汁、石青、石绿、毛笔、清水、学习单（教师示范用）\n\n理解加水量决定色调深浅的规律\n学生色阶练习推进1\n现在轮到你们了！我请三位同学每人领一张学习单\n学生任务：洗净毛笔→蘸石青+调水→画第一阶→洗净毛笔→再加水画第二阶……完成石青三阶后，同法完成石绿三阶；可观察证据：石青、石绿各完成浓→淡3阶渐变色，颜色之间有明显区分，不混色\n学习单（青绿色阶练习纸），墨汁，石青，石绿，毛笔，清水，备用纸巾\n\n\n学生色阶练习推进2\n先画石青的三阶，再画石绿的三阶\n\n\n\n\n确认与导入\n调完一个颜色后举手，我来检查一下你加的水量对不对\n\n\n\n石青、石绿各完成浓→淡3阶渐变色，颜色之间有明显区分，不混色\n学生操作\n完成的同学，把学习单举起来，我选几张贴到黑板上\n学生任务：观察黑板上的作品，找出色阶递进的规律；可观察证据：能用语言描述色阶从浓到淡的变化（如越来越亮/越来越浅）\n已完成的学习单，红蓝色小贴纸（用于互评贴好看）\n\n\n展评与分享推进2\n大家看看：同样是用石青画的，为什么有的颜色深有的浅？秘密在哪里？\n\n\n\n能用语言描述色阶从浓到淡的变化（如越来越亮/越来越浅）\n课堂小结\n\n学生任务：收拾毛笔，整理桌面，将学习单拍照保存；可观察证据：能说出1个本课收获（如水多颜色淡或石青和石绿不一样）\n\n\n能说出1个本课收获（如水多颜色淡或石青和石绿不一样）",
+    "empty_display_micro_step_count": 0,
+    "episode_method_count": 7,
+    "micro_method_count": 10,
+    "all_episodes_have_art_kernel_basis": true,
+    "all_microsteps_have_art_kernel_basis": true,
+    "all_episodes_derivation_show_pedagogy": true,
+    "provider_packet_preview_present": true,
+    "template_embeds_kernel": true,
+    "template_renderer_policy_marks_kernel": true,
+    "current_sections_have_kernel_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "record_art_kernel_status": null,
+    "record_curriculum_status": null,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "ocean": {
+    "kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "lesson_focus": {
+      "focus_id": "theme_observation_expression",
+      "description": "主题观察、形象特征提取、表达与交流",
+      "learning_domain": "欣赏评述 / 综合探索 / 造型表现",
+      "matched_keywords": [
+        "海洋"
+      ]
+    },
+    "cross_topic_guard": {
+      "guard_id": "r200a_cross_topic_visible_text_guard",
+      "focus_id": "theme_observation_expression",
+      "forbidden_terms": [
+        "色彩的渐变",
+        "色阶练习",
+        "足下生辉",
+        "画画鞋"
+      ],
+      "hit_count": 0,
+      "hits": [],
+      "passed": true,
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    "chain_checks": {
+      "curriculum_control_layer_present": true,
+      "official_standard_gap_visible": true,
+      "pedagogy_moves_present": true,
+      "episodes_mapped_to_pedagogy": true,
+      "microsteps_mapped_to_pedagogy": true,
+      "derivation_spine_preserved": true,
+      "no_official_standard_claim_without_ref": true
+    },
+    "curriculum_interpretation_status": "candidate_interpretation_pending_teacher_review",
+    "official_curriculum_claim_created": false,
+    "real_curriculum_standard_full_text_parsed": false,
+    "missing_required_fields": [
+      "academic_quality_or_performance_evidence"
+    ],
+    "basis_body": [
+      "本课定位为“第二单元 守护生命的摇篮”中的《走进海洋世界》。",
+      "本课的学习重心，是让学生从主题对象或生活情境中提取可见特征，并把观察发现转化为作品表达和交流证据。",
+      "课标候选依据提示：五、课程内容 > 美术 > 第二学段(3～5年级) > 学习任务2:表达自己的想法：学习任务2:表达自己的想法 本学习任务主要引导学生探索用传统与现代的工具、材料和媒 介，创作平面；四、课程目标 > 学段目标 > 第二学段(3～5年级) > 美术：(2)美术 ·能运用造型元素、形式原理和欣赏方法，欣赏、评述艺术家的 作品，感受中外美术作品的魅；五、课程内容 > 美术 > 第二学段(3～5年级) > 学习任务5:融入跨学科学习：学习任务5:融入跨学科学习 本学习任务主要组织学生以个人或小组合作的方式，将美术与自 然、社会及。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+    ],
+    "basis_source_gap_notes": [
+      "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "已降级为定位来源提示：本课依据上传原稿定位为三年级《走进海洋世界》，所属单元为“第二单元 守护生命的摇篮”。",
+      "已降级为旧理解链重复提示：本课的学习重心，是围绕“观察海洋生物图片，说出海洋生物的特征和生存环境，完成\"海洋初印象\"学习单”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。"
+    ],
+    "student_analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生多半有海洋动物或海洋环境的生活印象；本课要把零散印象推进到特征观察和主题表达。",
+      "本课难点在于学生能否从海洋主题的直观印象中提取形象、环境或保护问题，并转化为作品表达。",
+      "绘画与表达基础上，学生能画出熟悉形象的大致外形，但特征提取、画面组织和用语言说明选择仍需要支架。",
+      "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。",
+      "结合课标候选方向看，学情分析应确认学生已有观察、材料尝试、作品表达和交流证据基础。"
+    ],
+    "objectives_body": [
+      "学生能观察主题对象或情境，说出形象、环境或问题中的关键特征。",
+      "学生能把观察到的特征转化为画面、学习单或作品表达。",
+      "学生能在交流中用作品证据说明自己的主题理解和表达选择。",
+      "课标候选约束下，目标应同时包含观察/感受、方法尝试、作品表达和证据交流。"
+    ],
+    "keypoints_body": [
+      "重点：引导学生提取主题对象、环境或问题中的可见特征。",
+      "难点：帮助学生把零散印象转化为有主题、有证据的作品表达。",
+      "课标候选约束下，重难点应落到学生能看见、能操作、能说明的课堂证据。"
+    ],
+    "basis_student_profile_refined": true,
+    "episode_count": 6,
+    "micro_step_count": 11,
+    "micro_step_display_text": "引入课题\n\n学生任务：说出对大海的印象，举手发言；可观察证据：能说出2-3种海洋动物或对大海的印象\n投影仪\n\n能说出2-3种海洋动物或对大海的印象\n认识海洋生物推进1\n（PPT播放海洋生物图片集）请大家看屏幕，这是什么动物？谁能说一说，它长什么样子？有什么特别的地方？ 老师一边播，一边请同学来说\n学生任务：观察图片，说出海洋生物的名称和1-2个特征；可观察证据：能说出3种以上海洋生物的名称和基本特征\n投影仪，海洋生物图片PPT\n\n\n认识海洋生物推进2\n这条鱼是什么颜色的？它的身体是什么形状？……珊瑚礁像什么？……水母是怎么移动的？…… （播放完）谁能告诉大家，你印象最深的海洋生物是什么？为什么？\n\n\n\n能说出3种以上海洋生物的名称和基本特征\n认识海洋危机推进1\n海洋这么美，但现在的海洋正在面临危机\n学生任务：观察污染图片，说出1-2个感受或想法；可观察证据：能说出海洋污染对动物的1-2个影响\n投影仪，海洋污染图片PPT\n\n\n认识海洋危机推进2\n（播放海洋污染图片）请大家看这些图片，告诉我你看到了什么？ （播完后）这些垃圾是从哪里来的？你们在生活中见过这样的场景吗？ 海洋里的动物会因为这些垃圾受到什么影响？老师给大家讲一个真实的故事：一只海龟因为吞食了塑料袋窒息死亡，因为塑料袋看起来像它最爱吃的水母…… 保护海洋，就是保护这些动物的生命\n\n\n\n能说出海洋污染对动物的1-2个影响\n教师示范\n保护海洋，我们可以做什么？（展示教师示范样品）这是老师用废旧材料做的海洋生物\n学生任务：观察示范样品，说出材料，完成学习单第一部分；可观察证据：能说出2-3种可以用来做海洋生物的废旧材料\n教师示范样品（3件），\"海洋初印象\"学习单，铅笔\n\n\n认识变废为宝推进2\n请大家看一看：这条鱼是用什么做的？……这个海星是用什么做的？…… 这些看起来像垃圾的东西（举起纸箱/塑料瓶/铁丝），其实都可以变成美丽的艺术品\n\n\n\n能说出2-3种可以用来做海洋生物的废旧材料\n学生操作\n现在请大家拿出学习单，完成以下内容\n学生任务：完成\"海洋初印象\"学习单；可观察证据：学习单3个部分都有内容，画的海洋生物清晰可辨认\n\"海洋初印象\"学习单（打印），铅笔，水彩笔\n\n\n完成学习单推进2\n画一画你最想做的一种海洋生物（简笔画即可）\n\n\n\n\n任务准备\n写下你准备用什么废旧材料来做\n\n\n\n学习单3个部分都有内容，画的海洋生物清晰可辨认\n课堂小结与预告\n\n学生任务：记住下节课任务，准备材料；可观察证据：能说出下节课要带什么材料，要做什么\n投影仪\n\n能说出下节课要带什么材料，要做什么",
+    "empty_display_micro_step_count": 0,
+    "episode_method_count": 6,
+    "micro_method_count": 11,
+    "all_episodes_have_art_kernel_basis": true,
+    "all_microsteps_have_art_kernel_basis": true,
+    "all_episodes_derivation_show_pedagogy": true,
+    "provider_packet_preview_present": true,
+    "template_embeds_kernel": true,
+    "template_renderer_policy_marks_kernel": true,
+    "current_sections_have_kernel_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "record_art_kernel_status": null,
+    "record_curriculum_status": null,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "material_art": {
+    "kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "lesson_focus": {
+      "focus_id": "material_transformation_expression",
+      "description": "材料观察、结构转换、创意表达与安全操作",
+      "learning_domain": "综合探索 / 造型表现",
+      "matched_keywords": [
+        "变废为宝"
+      ]
+    },
+    "cross_topic_guard": {
+      "guard_id": "r200a_cross_topic_visible_text_guard",
+      "focus_id": "material_transformation_expression",
+      "forbidden_terms": [
+        "色彩的渐变",
+        "色阶练习",
+        "青绿色阶",
+        "足下生辉",
+        "画画鞋"
+      ],
+      "hit_count": 0,
+      "hits": [],
+      "passed": true,
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    "chain_checks": {
+      "curriculum_control_layer_present": true,
+      "official_standard_gap_visible": true,
+      "pedagogy_moves_present": true,
+      "episodes_mapped_to_pedagogy": true,
+      "microsteps_mapped_to_pedagogy": true,
+      "derivation_spine_preserved": true,
+      "no_official_standard_claim_without_ref": true
+    },
+    "curriculum_interpretation_status": "candidate_interpretation_pending_teacher_review",
+    "official_curriculum_claim_created": false,
+    "real_curriculum_standard_full_text_parsed": false,
+    "missing_required_fields": [
+      "academic_quality_or_performance_evidence"
+    ],
+    "basis_body": [
+      "本课定位为“第二单元 守护生命的摇篮”中的《变废为宝的艺术》。",
+      "本课的学习重心，是让学生判断材料形态与主题形象之间的关系，再通过剪贴、拼摆或连接形成有意图的作品。",
+      "课标候选依据提示：四、课程目标 > 学段目标 > 第二学段(3～5年级) > 美术：(2)美术 ·能运用造型元素、形式原理和欣赏方法，欣赏、评述艺术家的 作品，感受中外美术作品的魅；五、课程内容 > 美术 > 第二学段(3～5年级) > 学习任务5:融入跨学科学习：学习任务5:融入跨学科学习 本学习任务主要组织学生以个人或小组合作的方式，将美术与自 然、社会及；七、课程实施 > 教学建议：(一)教学建议 艺术教学要以立德树人为根本任务，以核心素养为导向。教师要 深入理解艺术课程的性质。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+    ],
+    "basis_source_gap_notes": [
+      "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "已降级为定位来源提示：本课依据上传原稿定位为三年级《变废为宝的艺术》，所属单元为“第二单元 守护生命的摇篮”。",
+      "已降级为旧理解链重复提示：本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。"
+    ],
+    "student_analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生已接触海洋主题观察或前序设计草图，能提出初步想法；本课要把草图、材料观察和制作表达连接起来。",
+      "本课难点不只是完成手工作品，而是让学生判断材料形态、连接方式和海洋生物特征之间的关系，避免材料堆砌。",
+      "技法与材料基础上，学生有基础剪贴、拼摆和简单连接经验，但安全切割、结构稳定、材料服务造型意图仍需要教师示范和巡视支架。",
+      "真实学情缺口：本班学生的工具安全习惯、废旧材料准备情况、前序草图完成度和合作制作经验，上传原文未充分提供，需教师确认。",
+      "结合课标候选方向看，学情分析应确认学生已有观察、材料尝试、作品表达和交流证据基础。"
+    ],
+    "objectives_body": [
+      "学生能观察材料的形态、质感和连接可能，说出材料可以服务哪个造型意图。",
+      "学生能通过剪贴、拼摆、连接或组合完成一件结构相对稳定、主题明确的作品。",
+      "学生能用作品中的材料选择和结构处理说明自己的创意表达。",
+      "课标候选约束下，目标应同时包含观察/感受、方法尝试、作品表达和证据交流。"
+    ],
+    "keypoints_body": [
+      "重点：引导学生判断材料形态、连接方式和主题造型之间的关系。",
+      "难点：帮助学生让材料服务造型意图，兼顾结构稳定、工具安全和作品说明。",
+      "课标候选约束下，重难点应落到学生能看见、能操作、能说明的课堂证据。"
+    ],
+    "basis_student_profile_refined": true,
+    "episode_count": 6,
+    "micro_step_count": 12,
+    "micro_step_display_text": "回顾引入\n\n学生任务：展示自己带来的废旧材料，说出名称；可观察证据：能说出自己带了哪些材料\n学生带来的废旧材料\n\n能说出自己带了哪些材料\n学生操作\n（展示制作步骤PPT）老师今天要用这个纸箱做一条鱼，请大家看： 第一步：画草图\n学生任务：观察制作步骤，说出4个步骤的名称；可观察证据：能说出制作4个步骤的名称\n投影仪，制作步骤PPT\n\n\n任务准备\n先在纸上画出鱼的外形，标出各部分的材料\n\n\n\n能说出制作4个步骤的名称\n设计草图推进1\n现在请拿出你的学习单，开始设计你想要的海洋生物\n学生任务：完成\"设计草图\"学习单，画出海洋生物草图，标注材料和颜色；可观察证据：草图清晰，标注了2种以上材料和颜色方案\n\"设计草图\"学习单（打印），铅笔，橡皮\n\n\n设计草图推进2\n老师有几个建议\n\n\n\n\n设计草图推进3\n先画外形——你想做什么鱼？是大鲨鱼还是小丑鱼？是水母还是海龟？外形决定了作品的个性\n\n\n\n草图清晰，标注了2种以上材料和颜色方案\n任务准备\n草图完成后，现在开始处理材料\n学生任务：根据草图进行材料剪裁和初步拼装；可观察证据：剪裁完成，各部分材料已准备好，等待拼装\n学生自带废旧材料，剪刀，胶布/热胶枪（老师操作），铅笔\n\n\n任务准备\n请大家按以下步骤操作： 第一步：看着你的草图，想想每个部分该用什么材料\n\n\n\n\n材料准备与切割推进3\n第二步：开始剪裁\n\n\n\n剪裁完成，各部分材料已准备好，等待拼装\n学生操作\n完成的同学把你们的半成品举起来，让大家看看\n学生任务：展示作品，说出自己用了什么材料；可观察证据：能清楚介绍自己的作品和材料选择\n已完成的半成品\n\n\n任务准备\n（选3-5位）请你们给大家介绍一下：你做的是什么动物？你用了什么特别的材料？ 大家觉得他们选的材料怎么样？有没有给你启发的？\n\n\n\n能清楚介绍自己的作品和材料选择\n课堂小结与下节准备\n\n学生任务：收拾半成品，记住下节课要带的东西；可观察证据：能说出下节课要带什么，作品半成品已收好\n投影仪\n\n能说出下节课要带什么，作品半成品已收好",
+    "empty_display_micro_step_count": 0,
+    "episode_method_count": 6,
+    "micro_method_count": 12,
+    "all_episodes_have_art_kernel_basis": true,
+    "all_microsteps_have_art_kernel_basis": true,
+    "all_episodes_derivation_show_pedagogy": true,
+    "provider_packet_preview_present": true,
+    "template_embeds_kernel": true,
+    "template_renderer_policy_marks_kernel": true,
+    "current_sections_have_kernel_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "record_art_kernel_status": null,
+    "record_curriculum_status": null,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "shoe_observation": {
+    "kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "lesson_focus": {
+      "focus_id": "shoe_observation_drawing_expression",
+      "description": "生活物品观察、角度比较、结构细节记录与线描表达",
+      "learning_domain": "造型表现 / 欣赏评述",
+      "matched_keywords": [
+        "足下生辉",
+        "鞋",
+        "正面",
+        "侧面"
+      ]
+    },
+    "cross_topic_guard": {
+      "guard_id": "r200a_cross_topic_visible_text_guard",
+      "focus_id": "shoe_observation_drawing_expression",
+      "forbidden_terms": [
+        "色彩的渐变",
+        "渐变",
+        "色阶",
+        "颜色逐步",
+        "逐步过渡",
+        "直接跳色",
+        "青绿山水",
+        "石青",
+        "石绿"
+      ],
+      "hit_count": 0,
+      "hits": [],
+      "passed": true,
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    "chain_checks": {
+      "curriculum_control_layer_present": true,
+      "official_standard_gap_visible": true,
+      "pedagogy_moves_present": true,
+      "episodes_mapped_to_pedagogy": true,
+      "microsteps_mapped_to_pedagogy": true,
+      "derivation_spine_preserved": true,
+      "no_official_standard_claim_without_ref": true
+    },
+    "curriculum_interpretation_status": "candidate_interpretation_pending_teacher_review",
+    "official_curriculum_claim_created": false,
+    "real_curriculum_standard_full_text_parsed": false,
+    "missing_required_fields": [
+      "academic_quality_or_performance_evidence"
+    ],
+    "basis_body": [
+      "本课定位为“第五单元 足下生辉”中的《《足下生辉》教案》。",
+      "本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条、形状和画面组织把观察发现表达出来。",
+      "课标候选依据提示：本课可暂按小学3-5年级美术中观察、造型表现与作品交流方向理解，重点服务“看见鞋的角度/结构/细节，并用线条表达”。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+    ],
+    "basis_source_gap_notes": [
+      "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "已降级为定位来源提示：本课依据上传原稿定位为三年级《《足下生辉》教案》，所属单元为“第五单元 足下生辉”。",
+      "已降级为旧理解链重复提示：本课的学习重心，是让学生从熟悉的鞋出发，比较不同角度的外形、结构和局部细节，再用线条和画面组织把观察发现表达出来。"
+    ],
+    "student_analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生已有生活中观察鞋、图像观察和基础线描经验；本课要把熟悉物品推进到有角度、有结构、有细节的观察写生。",
+      "本课难点在于学生能否从不同角度看出鞋的外形比例、鞋面结构、鞋底方向和局部细节，并避免凭记忆画成符号化的鞋。",
+      "绘画与表现基础上，学生能画出熟悉物品的大致轮廓，但比例、遮挡、局部纹样和线条轻重需要观察提示、局部示范和巡视反馈。",
+      "真实学情缺口：本班学生的观察写生经验、线描控制水平、是否能带鞋或使用图片观察，上传原文未充分提供，需教师确认。",
+      "结合课标候选方向看，学情分析应重点确认学生是否能从生活物品中提取可见特征，并把观察语言转成线条、比例和局部细节。"
+    ],
+    "objectives_body": [
+      "学生能从正面、侧面、后面或局部角度观察一双鞋，说出外形比例、鞋面结构、鞋底方向或鞋带纹样等2-3个发现。",
+      "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察而不是凭空想象。",
+      "学生能在展示交流中说明自己抓住了哪个角度或细节，并根据同伴或教师提示完成一次画面调整。",
+      "课标候选约束下，目标不只写“画一双鞋”，还要保留观察角度、结构细节、线描表达和交流证据。"
+    ],
+    "keypoints_body": [
+      "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。",
+      "难点：帮助学生处理比例、遮挡、鞋面与鞋底方向、局部纹样等容易被忽略的细节，避免画成概念化、符号化的鞋。",
+      "课标候选约束下，重难点应落在观察证据转化为造型表现：比例、角度、鞋面/鞋底/鞋带等细节不能只靠想象补画。"
+    ],
+    "basis_student_profile_refined": true,
+    "episode_count": 3,
+    "micro_step_count": 4,
+    "micro_step_display_text": "比较鞋的第一眼差异\n出示或摆放几双不同类型的鞋，引导学生从外形、角度和局部细节说出第一眼发现。\n观察鞋的整体外形，说出自己看到的1个差异或想追问的问题。\n不同民族、不同时代或不同角度的鞋图；可配真实鞋。\n提示学生先说看得见的形状、鞋面、鞋底、鞋带，不急着评价好不好看。\n学生能说出至少1个可见观察点或提出一个与鞋的结构/角度有关的问题。\n确定观察角度\n请学生固定一双鞋的摆放角度，先比较正面、侧面或后面的轮廓差异。\n选择一个观察角度，指出鞋头、鞋跟、鞋底方向或鞋口位置。\n真实鞋或多角度鞋图；可用线框标出外轮廓。\n追问：你看到的是正面、侧面还是后面？鞋底朝向哪里？鞋口在哪里？\n学生能说清自己的观察角度，并指出2个结构位置。\n抓住结构和局部细节\n把学生观察到的鞋面、鞋底、鞋带、纹样等细节归到“结构”和“装饰”两类。\n在观察对象上找出一个结构细节和一个局部纹样，准备转成线条画到画面里。\n局部放大图或教师板书：轮廓/结构/细节。\n避免只说颜色，要求学生用“鞋面弯曲、鞋底厚薄、鞋带交叉”等可见词描述。\n学生能说出2-3个可用线条表现进作品的具体细节。\n用观察证据交流作品\n请学生指着作品说明自己抓住了哪个角度或哪处细节，再给出一条可修改建议。\n说出自己作品中的一个观察证据，并听取同伴或教师的一条调整建议。\n学生作品展示区；评价句式：我观察到……所以我画了……\n评价不只说像不像，要说哪里体现了角度、结构或细节。\n学生能用一句话说明作品里的观察依据，并知道下一步可调整处。",
+    "empty_display_micro_step_count": 0,
+    "episode_method_count": 3,
+    "micro_method_count": 3,
+    "all_episodes_have_art_kernel_basis": true,
+    "all_microsteps_have_art_kernel_basis": true,
+    "all_episodes_derivation_show_pedagogy": true,
+    "provider_packet_preview_present": true,
+    "template_embeds_kernel": true,
+    "template_renderer_policy_marks_kernel": true,
+    "current_sections_have_kernel_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "record_art_kernel_status": null,
+    "record_curriculum_status": null,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "record_smoke": {
+    "kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "lesson_focus": {
+      "focus_id": "color_gradation_expression",
+      "description": "色彩观察、比较、过渡表现与作品交流",
+      "learning_domain": "造型表现 / 欣赏评述",
+      "matched_keywords": [
+        "色彩",
+        "颜色"
+      ]
+    },
+    "cross_topic_guard": {
+      "guard_id": "r200a_cross_topic_visible_text_guard",
+      "focus_id": "color_gradation_expression",
+      "forbidden_terms": [
+        "足下生辉",
+        "鞋底",
+        "鞋面",
+        "鞋带",
+        "不同角度的鞋",
+        "鞋的结构",
+        "画画鞋"
+      ],
+      "hit_count": 0,
+      "hits": [],
+      "passed": true,
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    "chain_checks": {
+      "curriculum_control_layer_present": true,
+      "official_standard_gap_visible": true,
+      "pedagogy_moves_present": true,
+      "episodes_mapped_to_pedagogy": true,
+      "microsteps_mapped_to_pedagogy": true,
+      "derivation_spine_preserved": true,
+      "no_official_standard_claim_without_ref": true
+    },
+    "curriculum_interpretation_status": "candidate_interpretation_pending_teacher_review",
+    "official_curriculum_claim_created": false,
+    "real_curriculum_standard_full_text_parsed": false,
+    "missing_required_fields": [
+      "academic_quality_or_performance_evidence"
+    ],
+    "basis_body": [
+      "本课定位为“色彩测试单元”中的《《R200A测试课》教案》。",
+      "本课的学习重心，是让学生看见颜色逐步变化的现象，并通过试色、叠色或浓淡控制表现自然过渡。",
+      "课标候选依据提示：本课可暂按小学3-5年级美术中色彩观察、表现方法与作品交流方向理解。以上为本地课标候选切片，进入正式备课前仍需教师核对。"
+    ],
+    "basis_source_gap_notes": [
+      "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "已降级为定位来源提示：本课依据上传原稿定位为三年级《《R200A测试课》教案》，所属单元为“色彩测试单元”。",
+      "已降级为旧理解链重复提示：本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。"
+    ],
+    "student_analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生可能已经观察过颜色深浅、冷暖或相近色变化；本课要把直观感受推进到色阶、浓淡或渐变控制。",
+      "本课难点在于学生能否理解颜色是逐步过渡的，并在操作中避免直接跳色、平涂或只追求颜色好看。",
+      "技法与表现基础上，学生能进行基本涂画或试色，但水分、浓淡、叠色和色阶连续控制需要分步示范与短练习。",
+      "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。",
+      "结合课标候选方向看，学情分析应确认学生是否能观察颜色变化，并把感受转成可操作的试色或表现方法。"
+    ],
+    "objectives_body": [
+      "学生能观察生活或画面中的颜色过渡现象，说出颜色逐步变化的基本特点。",
+      "学生能通过试色、叠色、浓淡或色阶排列完成一组有连续变化的色彩表达。",
+      "学生能用可见证据说明自己的过渡是否自然，并根据反馈调整一处色彩衔接。",
+      "课标候选约束下，目标应同时包含观察色彩变化、尝试表现方法和用作品证据说明效果。"
+    ],
+    "keypoints_body": [
+      "重点：引导学生看见颜色逐步变化的规律，并通过试色或色阶练习形成可见的过渡效果。",
+      "难点：帮助学生控制水分、浓淡、叠色或色距，避免直接跳色、平涂和只追求颜色好看。",
+      "课标候选约束下，重难点应落在颜色变化的观察与表现控制，而不是只写完成涂色任务。"
+    ],
+    "basis_student_profile_refined": true,
+    "episode_count": 3,
+    "micro_step_count": 3,
+    "micro_step_display_text": "观察并试出变化\n引导学生先说出颜色变化的方向，再用短任务试出一种过渡方法。\n完成一次试色或色阶排列，并说出哪里变化最明显。\n色阶示例、试色纸或学生材料。\n追问：颜色是突然变了，还是一步步变了？中间少了哪一格？\n学生能呈现一组有连续变化的色彩证据。\n观察并试出变化\n引导学生先说出颜色变化的方向，再用短任务试出一种过渡方法。\n完成一次试色或色阶排列，并说出哪里变化最明显。\n色阶示例、试色纸或学生材料。\n追问：颜色是突然变了，还是一步步变了？中间少了哪一格？\n学生能呈现一组有连续变化的色彩证据。\n观察并试出变化\n引导学生先说出颜色变化的方向，再用短任务试出一种过渡方法。\n完成一次试色或色阶排列，并说出哪里变化最明显。\n色阶示例、试色纸或学生材料。\n追问：颜色是突然变了，还是一步步变了？中间少了哪一格？\n学生能呈现一组有连续变化的色彩证据。",
+    "empty_display_micro_step_count": 0,
+    "episode_method_count": 3,
+    "micro_method_count": 3,
+    "all_episodes_have_art_kernel_basis": true,
+    "all_microsteps_have_art_kernel_basis": true,
+    "all_episodes_derivation_show_pedagogy": true,
+    "provider_packet_preview_present": true,
+    "template_embeds_kernel": true,
+    "template_renderer_policy_marks_kernel": true,
+    "current_sections_have_kernel_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready",
+      "preview_test_record_written"
+    ],
+    "record_art_kernel_status": "KERNEL_READY_WITH_CURRICULUM_CANDIDATE_REFS",
+    "record_curriculum_status": "candidate_interpretation_pending_teacher_review",
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "notes": {
+    "scope": "Attach curriculum-control status, candidate curriculum slice refs, and elementary art pedagogy kernel before provider reasoning.",
+    "not_done": "No official curriculum confirmation, no provider/model call, no formal apply.",
+    "next_stage": "R200B can call provider with this kernel as candidate-only context."
+  }
+}
