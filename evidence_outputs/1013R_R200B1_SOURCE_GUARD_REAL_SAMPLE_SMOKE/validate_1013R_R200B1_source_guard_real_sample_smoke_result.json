@@ -1,0 +1,90 @@
+{
+  "stage": "1013R_R200B1_SOURCE_GUARD_REAL_SAMPLE_SMOKE",
+  "status": "PASS",
+  "checks": {
+    "all_cases_have_template_episodes": true,
+    "all_cross_topic_guards_pass": true,
+    "no_focus_mismatch_flags": true,
+    "all_cases_have_curriculum_candidates": true,
+    "all_cases_have_curriculum_source_documents": true,
+    "all_r200b_packets_have_curriculum_refs": true,
+    "all_r200b_packets_have_source_documents": true,
+    "all_r200b_packets_have_cross_topic_guard": true,
+    "preview_only_no_model_in_smoke": true,
+    "no_formal_apply": true
+  },
+  "cases": [
+    {
+      "case_id": "shoe_observation",
+      "lesson_title": "《足下生辉》教案",
+      "focus_id": "shoe_observation_drawing_expression",
+      "template_episode_count": 3,
+      "cross_topic_guard_passed": true,
+      "cross_topic_guard_hit_count": 0,
+      "curriculum_candidate_count": 6,
+      "curriculum_source_documents_present": true,
+      "r200b_packet_curriculum_ref_count": 6,
+      "r200b_packet_has_source_documents": true,
+      "r200b_packet_has_cross_topic_guard": true,
+      "focus_mismatch_flags": [],
+      "provider_called": false,
+      "model_called": false,
+      "formal_apply": false
+    },
+    {
+      "case_id": "color_gradation",
+      "lesson_title": "渐变的魅力",
+      "focus_id": "color_gradation_expression",
+      "template_episode_count": 6,
+      "cross_topic_guard_passed": true,
+      "cross_topic_guard_hit_count": 0,
+      "curriculum_candidate_count": 6,
+      "curriculum_source_documents_present": true,
+      "r200b_packet_curriculum_ref_count": 6,
+      "r200b_packet_has_source_documents": true,
+      "r200b_packet_has_cross_topic_guard": true,
+      "focus_mismatch_flags": [],
+      "provider_called": false,
+      "model_called": false,
+      "formal_apply": false
+    },
+    {
+      "case_id": "material_transformation",
+      "lesson_title": "变废为宝的艺术",
+      "focus_id": "material_transformation_expression",
+      "template_episode_count": 6,
+      "cross_topic_guard_passed": true,
+      "cross_topic_guard_hit_count": 0,
+      "curriculum_candidate_count": 6,
+      "curriculum_source_documents_present": true,
+      "r200b_packet_curriculum_ref_count": 6,
+      "r200b_packet_has_source_documents": true,
+      "r200b_packet_has_cross_topic_guard": true,
+      "focus_mismatch_flags": [],
+      "provider_called": false,
+      "model_called": false,
+      "formal_apply": false
+    },
+    {
+      "case_id": "ocean_theme",
+      "lesson_title": "走进海洋世界",
+      "focus_id": "theme_observation_expression",
+      "template_episode_count": 6,
+      "cross_topic_guard_passed": true,
+      "cross_topic_guard_hit_count": 0,
+      "curriculum_candidate_count": 6,
+      "curriculum_source_documents_present": true,
+      "r200b_packet_curriculum_ref_count": 6,
+      "r200b_packet_has_source_documents": true,
+      "r200b_packet_has_cross_topic_guard": true,
+      "focus_mismatch_flags": [],
+      "provider_called": false,
+      "model_called": false,
+      "formal_apply": false
+    }
+  ],
+  "notes": {
+    "scope": "Four-case smoke for R103/R200A/R200C/R200B packet readiness and source guard. Provider model is intentionally disabled here; R200B live provider is covered by validate_1013r_r200b_art_lesson_reasoning_candidate_preview.py.",
+    "shoe_case_source": "synthetic upload text because no local 足下生辉 docx was found in knowledge-base/lesson-cases."
+  }
+}
