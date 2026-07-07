@@ -1,0 +1,387 @@
+{
+  "stage": "1013R_R200D_REAL_LESSON_QUALITY_REGRESSION",
+  "status": "PASS",
+  "quality_average_score": 94,
+  "quality_dimensions": [
+    "topic_contamination_score",
+    "section_depth_score",
+    "basis_to_goal_chain_score",
+    "episode_causality_score",
+    "microstep_actionability_score",
+    "curriculum_embedding_score",
+    "teacher_usefulness_score"
+  ],
+  "checks": {
+    "all_cases_generated": true,
+    "all_cases_have_focus": true,
+    "all_fixed_focus_cases_match_expected": true,
+    "no_topic_contamination": true,
+    "no_focus_mismatch_flags": true,
+    "all_curriculum_candidates_present": true,
+    "all_microsteps_present": true,
+    "all_quality_scores_above_watch_floor": true,
+    "preview_only_no_formal_apply": true
+  },
+  "cases": [
+    {
+      "case_id": "shoe_observation",
+      "file_name": "课时1_足下生辉_教案.txt",
+      "lesson_title": "《足下生辉》教案",
+      "focus_id": "shoe_observation_drawing_expression",
+      "expected_focus": "shoe_observation_drawing_expression",
+      "focus_ok": true,
+      "quality_overall_score": 100,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 100,
+        "microstep_actionability_score": 100,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 100
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [],
+        "microstep_actionability": [],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生的观察写生经验、线描控制水平、是否能带鞋或使用图片观察，上传原文未充分提供，需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 3,
+      "micro_step_count": 4,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    {
+      "case_id": "color_gradation",
+      "file_name": "kb_art_g3_lesson_case_1_fd1b5bdf60_课时1_渐变的魅力_教案.docx",
+      "lesson_title": "渐变的魅力",
+      "focus_id": "color_gradation_expression",
+      "expected_focus": "color_gradation_expression",
+      "focus_ok": true,
+      "quality_overall_score": 96,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 90,
+        "microstep_actionability_score": 82,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 100
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [
+          "课堂小结与预告: 推进依据偏空",
+          "课堂小结与预告: 证据描述偏空"
+        ],
+        "microstep_actionability": [
+          "课堂导入: micro 教师动作偏空",
+          "认识渐变概念: micro 教师动作偏空",
+          "教师示范三种工具: micro 证据偏空",
+          "教师示范三种工具: micro 学生任务偏空",
+          "探索与练习: micro 证据偏空",
+          "探索与练习: micro 学生任务偏空",
+          "探索与练习: micro 证据偏空",
+          "分享与展评: micro 证据偏空",
+          "分享与展评: micro 学生任务偏空",
+          "课堂小结与预告: micro 教师动作偏空"
+        ],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 6,
+      "micro_step_count": 9,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    {
+      "case_id": "qinglv_landscape",
+      "file_name": "kb_art_g3_lesson_case_1_08f3e01f0b_课时1_走进青绿山水_教案.docx",
+      "lesson_title": "走进青绿山水",
+      "focus_id": "ink_or_traditional_color_exploration",
+      "expected_focus": "ink_or_traditional_color_exploration",
+      "focus_ok": true,
+      "quality_overall_score": 93,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 70,
+        "microstep_actionability_score": 80,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 100
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [
+          "远观千里江山图: 推进依据偏空",
+          "近触矿物颜料: 推进依据偏空",
+          "涂色探索: 证据描述偏空",
+          "分享与交流: 证据描述偏空",
+          "课堂小结与预告: 推进依据偏空",
+          "课堂小结与预告: 证据描述偏空"
+        ],
+        "microstep_actionability": [
+          "引入课题: micro 教师动作偏空",
+          "远观千里江山图: micro 教师动作偏空",
+          "近触矿物颜料: micro 教师动作偏空",
+          "涂色探索: micro 证据偏空",
+          "涂色探索: micro 学生任务偏空",
+          "涂色探索: micro 证据偏空",
+          "涂色探索: micro 学生任务偏空",
+          "涂色探索: micro 证据偏空",
+          "分享与交流: micro 证据偏空",
+          "分享与交流: micro 学生任务偏空",
+          "课堂小结与预告: micro 教师动作偏空"
+        ],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生的传统山水图像经验、颜料使用经验和对青绿材料的感受基础，上传原文未充分提供，需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。 本课还要检查学生是否能把青绿山水的色彩层次、材料感受和画面意境联系起来。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。 本课还要检查学生是否能把青绿山水的色彩层次、材料感受和画面意境联系起来。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 6,
+      "micro_step_count": 9,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    {
+      "case_id": "material_transformation",
+      "file_name": "kb_art_g3_lesson_case_2_67d6ab622f_课时2_变废为宝的艺术_教案.docx",
+      "lesson_title": "变废为宝的艺术",
+      "focus_id": "material_transformation_expression",
+      "expected_focus": "material_transformation_expression",
+      "focus_ok": true,
+      "quality_overall_score": 93,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 82,
+        "microstep_actionability_score": 72,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 100
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [
+          "设计草图: 推进依据偏空",
+          "材料准备与切割: 推进依据偏空",
+          "课堂小结与下节准备: 推进依据偏空"
+        ],
+        "microstep_actionability": [
+          "回顾引入: micro 教师动作偏空",
+          "示范讲解: micro 证据偏空",
+          "示范讲解: micro 学生任务偏空",
+          "设计草图: micro 证据偏空",
+          "设计草图: micro 教师动作偏空",
+          "设计草图: micro 学生任务偏空",
+          "设计草图: micro 证据偏空",
+          "设计草图: micro 学生任务偏空",
+          "材料准备与切割: micro 证据偏空",
+          "材料准备与切割: micro 学生任务偏空",
+          "材料准备与切割: micro 证据偏空",
+          "材料准备与切割: micro 教师动作偏空"
+        ],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生的工具安全习惯、废旧材料准备情况、前序草图完成度和合作制作经验，上传原文未充分提供，需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 6,
+      "micro_step_count": 12,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    {
+      "case_id": "ocean_theme",
+      "file_name": "kb_art_g3_lesson_case_1_eeabeca815_课时1_走进海洋世界_教案.docx",
+      "lesson_title": "走进海洋世界",
+      "focus_id": "theme_observation_expression",
+      "expected_focus": "theme_observation_expression",
+      "focus_ok": true,
+      "quality_overall_score": 92,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 65,
+        "microstep_actionability_score": 79,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 100
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [
+          "引入课题: 推进依据偏空",
+          "认识海洋生物: 推进依据偏空",
+          "认识海洋危机: 推进依据偏空",
+          "认识变废为宝: 推进依据偏空",
+          "完成学习单: 推进依据偏空",
+          "课堂小结与预告: 推进依据偏空"
+        ],
+        "microstep_actionability": [
+          "引入课题: micro 教师动作偏空",
+          "认识海洋生物: micro 证据偏空",
+          "认识海洋生物: micro 学生任务偏空",
+          "认识海洋危机: micro 证据偏空",
+          "认识海洋危机: micro 学生任务偏空",
+          "认识变废为宝: micro 证据偏空",
+          "认识变废为宝: micro 学生任务偏空",
+          "完成学习单: micro 证据偏空",
+          "完成学习单: micro 学生任务偏空",
+          "完成学习单: micro 证据偏空",
+          "完成学习单: micro 学生任务偏空",
+          "课堂小结与预告: micro 教师动作偏空"
+        ],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 6,
+      "micro_step_count": 11,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    {
+      "case_id": "weaving",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "lesson_title": "穿穿编编（第1课时）",
+      "focus_id": "paper_weaving_structure_expression",
+      "expected_focus": "paper_weaving_structure_expression",
+      "focus_ok": true,
+      "quality_overall_score": 93,
+      "scores": {
+        "topic_contamination_score": 100,
+        "section_depth_score": 98,
+        "basis_to_goal_chain_score": 100,
+        "episode_causality_score": 77,
+        "microstep_actionability_score": 100,
+        "curriculum_embedding_score": 100,
+        "teacher_usefulness_score": 75
+      },
+      "quality_band": "pass",
+      "hard_failures": [],
+      "issues": {
+        "topic_contamination": [],
+        "section_depth": [
+          "学情分析含空泛/确认话术 1 条"
+        ],
+        "basis_to_goal_chain": [],
+        "episode_causality": [
+          "导入: 推进依据偏空",
+          "历史介绍: 推进依据偏空",
+          "认识经纬: 推进依据偏空",
+          "小结: 推进依据偏空"
+        ],
+        "microstep_actionability": [],
+        "curriculum_embedding": [],
+        "teacher_usefulness": [
+          "空泛/确认话术过多"
+        ],
+        "generic_text_examples": [
+          "真实学情缺口：本班学生剪纸条、保持间距、连续穿插和处理纸张松紧的经验，上传原文未充分提供，需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "按原文顺序推进，但具体方法依据需教师确认。 本课还要检查学生是否理解经纬穿插关系，并能用纸条秩序形成纹样或小作品。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "上传原文未提供明确教师组织；需教师确认。",
+          "该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "focus_mismatch_flags": []
+      },
+      "template_episode_count": 6,
+      "micro_step_count": 6,
+      "curriculum_candidate_count": 6,
+      "preview_only": true,
+      "formal_apply": false
+    }
+  ],
+  "output_files": {
+    "result": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200D_REAL_LESSON_QUALITY_REGRESSION\\validate_1013R_R200D_real_lesson_quality_regression_result.json",
+    "report": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R200D_REAL_LESSON_QUALITY_REGRESSION\\r200d_real_lesson_quality_regression_report.md"
+  },
+  "notes": {
+    "scope": "Quality regression baseline for real or representative lesson uploads. This does not call provider models and does not write formal lesson data.",
+    "quality_gate": "PASS requires no cross-topic contamination, curriculum candidates, microsteps, and per-case score >= 68.",
+    "next_stage": "Use failing dimensions to target R200E/R200F fixes before allowing model candidates into main text."
+  }
+}
